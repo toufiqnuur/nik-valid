@@ -1,0 +1,23 @@
+{
+  "name": "nik-valid",
+  "version": "1.0.0",
+  "description": "Javascript NIK Validator",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toufiqnuur/nik-validator.git"
+  },
+  "keywords": [
+    "nik validator",
+    "nik checker"
+  ],
+  "author": "toufiqnuur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toufiqnuur/nik-validator/issues"
+  },
+  "homepage": "https://github.com/toufiqnuur/nik-validator#readme"
+}
