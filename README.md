@@ -1,14 +1,25 @@
 # Nik Valid
-[![npm version](https://img.shields.io/npm/v/nik-valid.svg?style=flat-square)](https://www.npmjs.org/package/nik-valid)
-[![install size](https://packagephobia.now.sh/badge?p=nik-valid)](https://packagephobia.now.sh/result?p=nik-valid)
-[![npm downloads](https://img.shields.io/npm/dm/nik-valid.svg?style=flat-square)](http://npm-stat.com/charts.html?package=nik-valid)
+[![jsdelivr version](https://badgen.net/jsdelivr/v/npm/nik-valid?color=orange)](https://cdn.jsdelivr.net/npm/nik-valid/dist/nik-valid.js)
+[![npm version](https://badgen.net/npm/v/nik-valid?color=red)](https://www.npmjs.com/package/nik-valid)
+[![license](https://badgen.net/github/license/toufiqnuur/nik-valid)](https://github.com/toufiqnuur/nik-valid/blob/main/LICENSE)
+![total download](https://badgen.net/npm/dt/nik-valid)
+
 
 Javascript client side NIK Validator.
 
-### Installation
-`npm install nik-valid`
+## Installation
 
-### How to use
+Using npm:
+```bash
+$ npm install nik-valid
+```
+
+Using cdn:
+```html
+<script src="https://cdn.jsdelivr.net/npm/nik-valid/dist/nik-valid.js"></script>
+```
+
+## How to use
 ```js
 const Validator = require('nik-valid')
 
