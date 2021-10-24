@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/toufiqnuur/nik-validator.git"
+    "url": "git+https://github.com/toufiqnuur/nik-valid.git"
   },
   "keywords": [
     "nik validator",
@@ -17,7 +17,7 @@
   "author": "toufiqnuur",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/toufiqnuur/nik-validator/issues"
+    "url": "https://github.com/toufiqnuur/nik-valid/issues"
   },
-  "homepage": "https://github.com/toufiqnuur/nik-validator#readme"
+  "homepage": "https://github.com/toufiqnuur/nik-valid#readme"
 }
