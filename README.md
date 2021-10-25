@@ -1,5 +1,5 @@
 # Nik Valid
-[![jsdelivr version](https://badgen.net/jsdelivr/v/npm/nik-valid?color=orange)](https://cdn.jsdelivr.net/npm/nik-valid/dist/nik-valid.js)
+[![jsdelivr version](https://badgen.net/jsdelivr/v/npm/nik-valid?color=orange)](https://cdn.jsdelivr.net/npm/nik-valid/dist/nik-valid.min.js)
 [![npm version](https://badgen.net/npm/v/nik-valid?color=red)](https://www.npmjs.com/package/nik-valid)
 [![license](https://badgen.net/github/license/toufiqnuur/nik-valid)](https://github.com/toufiqnuur/nik-valid/blob/main/LICENSE)
 ![total download](https://badgen.net/npm/dt/nik-valid)
@@ -16,7 +16,7 @@ $ npm install nik-valid
 
 Using cdn:
 ```html
-<script src="https://cdn.jsdelivr.net/npm/nik-valid/dist/nik-valid.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/nik-valid/dist/nik-valid.min.js"></script>
 ```
 
 ## How to use
