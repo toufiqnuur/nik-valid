@@ -3,13 +3,13 @@ const path = require('path')
 
 class Validator {
   #cekKodeWilayah() {
-    let kode_wilayah = JSON.parse(fs.readFileSync(path.join(__dirname, './kode_wilayah.json')))
+    let kode_wilayah = JSON.parse(fs.readFileSync(path.join(__dirname, '/kode_wilayah.json')))
     
     let prov = kode_wilayah.provinsi.includes(this.kode_prov)
     let kabkot = kode_wilayah.kabupaten.includes(this.kode_kabkot)
     let kec = kode_wilayah.kecamatan.includes(this.kode_kec)
 
-    return prov && kabkot && kec ? true : false
+    return prov && kabkot && kec
   }
   
   #cekTglLahir() {
@@ -17,7 +17,7 @@ class Validator {
     day = day > 40 ? (day - 40) : day
     year = (20 + year) > new Date().getFullYear() ? (19 + year) : (20 + year)
     
-    return Boolean(Date.parse(`${year} ${month} ${day}`))
+    return !!Date.parse(`${year} ${month} ${day}`)
   }
   
   check(nik) {
@@ -26,7 +26,7 @@ class Validator {
     this.kode_kec = nik.slice(0,6)
     this.tgl_lahir = nik.slice(6,12)
     
-    return nik.length === 16 && this.#cekKodeWilayah() && this.#cekTglLahir() ? true : false
+    return nik.length === 16 && this.#cekKodeWilayah() && this.#cekTglLahir()
   }
 }
 
